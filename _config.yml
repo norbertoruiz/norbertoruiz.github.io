@@ -16,7 +16,7 @@ timezone:
 
 title: Norberto Ruiz Rodriguez # the main title
 
-tagline: Data Analysis & Visualization # it will display as the subtitle
+tagline: Data Analysis & Visualization // Python, R, SQL // Machine Learning # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
