@@ -16,7 +16,7 @@ timezone:
 
 title: Norberto Ruiz Rodriguez # the main title
 
-tagline: Data Analytics & Visualization | Python, R, SQL | Machine Learning # it will display as the subtitle
+tagline: Data Analytics & Visualization // Python, R, SQL // Machine Learning # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Personal website of Norberto Ruiz, data analyst with experience in Python, R, SQL, Power BI, and big data tools.
