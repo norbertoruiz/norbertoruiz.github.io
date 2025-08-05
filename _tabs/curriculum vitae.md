@@ -11,17 +11,35 @@ order: 1
 ## Resumen profesional
 Soy una persona asertiva, creativa y con alta capacidad de trabajo. Mi formación dual me permite adoptar una perspectiva híbrida, combinando la estadística con una comprensión de los fenómenos sociales y económicos. El Análisis de Datos es el eje central de mi desarrollo profesional, motivo por el cual he dedicado los últimos meses a ampliar mi formación técnica.
 
+## Formación
+
+- **Máster en Sociología Aplicada** | Universidad de Málaga 
+- **Máster en Economía y Desarrollo** | Universidad de Sevilla 
+- **Grado en Administración y Dirección de Empresas** | Universidad de Sevilla
+
+## Formación Complementaria
+
+- **Certificado Profesional Data Science** | 2025 | IBM 
+- **Programación en Inteligencia Artificial y Big Data aplicables en entornos 5G** | 2025 | Vodafone 
+- **Curso SQL** | 2024 | Datahack 
+- **Curso Análisis y Visualización de datos con Excel y PowerBI** | 2024 | bilib 
+- **Curso R aplicado a la docencia e investigación en Economía** | 2024 | Universidad de Granada 
+- **Inteligencia de Negocio y Big Data Analytics** | 2022 | Universidad Internacional de Andalucía
+- **Global Education: The Human Rights Dimension** | 40h | Council of Europe
+- **Euromediterranean Intercultural Trends** | 30h | Anna Lindh Foundation 
+- **Next Level Coaching** | 60h | Erasmus+ Hungría 
+
 ## Experiencia
 
 ### ANÁLISIS Y SEGUIMIENTO DE RIESGO
-**Caja Rural del Sur, Sevilla, ES. | 2023**
+**Caja Rural del Sur | Sevilla, ES | 2023**
 - Observación, análisis y síntesis de datos financieros para el apoyo en decisiones estratégicas.
 - Monitoreo de indicadores financieros: análisis de ratios de liquidez, solvencia y exposición al mercado para grandes clientes.
 - Elaboración de informes ejecutivos longitudinales: diseño y análisis de series temporales para grandes cuentas.
 - Recomendaciones sobre la automatización de procesos: propuesta de scripts de Python (Pandas, NumPy) para la agilización de tareas repetitivas.
 
 ### INGESTA Y GESTIÓN DE DATOS
-**INE, Instituto Nacional de Estadística, Málaga, ES. | 2022** 
+**Instituto Nacional de Estadística | Málaga, ES. | 2022** 
 - Apoyo en la ingesta, validación y gestión de datos en procesos estadísticos oficiales.
 - Gestión de datos electorales bajo presión en GEISER, garantizando trazabilidad y precisión durante las Elecciones Andaluzas 2022 en plazos críticos.
 - Revisión crítica de metodologías estadísticas en la web del INE, detectando y corrigiendo inconsistencias en criterios de recolección y validación. Cambios adoptados oficialmente.
@@ -43,7 +61,7 @@ Soy una persona asertiva, creativa y con alta capacidad de trabajo. Mi formació
 - El resultado del trabajo se publicó en la colección Biblioteca Blas Infante.
 
 ### GESTIÓN DE STOCKS
-**Diveralia, Sevilla, ES | 2017** 
+**Diveralia | Sevilla, ES | 2017** 
 - Gestión y optimización del stock de productos mediante herramientas digitales.
 - Análisis de datos de ventas en Excel para mantener un stock actualizado.
 - Implementación de fórmulas automatizadas para generar alertas de reabastecimiento.
@@ -56,23 +74,6 @@ Soy una persona asertiva, creativa y con alta capacidad de trabajo. Mi formació
 - Enseñanza de nociones básicas de programación y herramientas digitales.
 - Creación de materiales educativos sobre control parental y desinformación en entornos digitales.
 
-## Formación
-
-- **Máster en Sociología Aplicada** | Universidad de Málaga 
-- **Máster en Economía y Desarrollo** | Universidad de Sevilla 
-- **Grado en Administración y Dirección de Empresas** | Universidad de Sevilla
-
-## Formación Complementaria
-
-- **Certificado Profesional Data Science** | 2025 | IBM 
-- **Programación en Inteligencia Artificial y Big Data aplicables en entornos 5G** | 2025 | Vodafone 
-- **Curso SQL** | 2024 | Datahack 
-- **Curso Análisis y Visualización de datos con Excel y PowerBI** | 2024 | bilib 
-- **Curso R aplicado a la docencia e investigación en Economía** | 2024 | Universidad de Granada 
-- **Inteligencia de Negocio y Big Data Analytics** | 2022 | Universidad Internacional de Andalucía
-- **Global Education: The Human Rights Dimension** | 40h | Council of Europe [cite: 36]
-- **Euromediterranean Intercultural Trends** | 30h | Anna Lindh Foundation 
-- **Next Level Coaching** | 60h | Erasmus+ Hungría 
 
 ## Aptitudes
 
