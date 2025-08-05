@@ -4,6 +4,8 @@ icon: fas fa-info-circle
 order: 1
 ---
 
+Español | English | Pdf
+
 > Add Markdown syntax content to file `_tabs/curriculum vitae.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip }
 >
