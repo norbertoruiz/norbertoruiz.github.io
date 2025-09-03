@@ -4,8 +4,10 @@ icon: fas fa-info-circle
 order: 1
 ---
 
-Español | English | Pdf
-
+<div class="d-flex gap-3 mb-4">
+  <a class="btn btn-primary" href="#cv-es">Español</a> |
+  <a class="btn btn-secondary" href="#cv-en">English</a>
+</div>
 
 <h2 id="cv-es">Curriculum Vitae (Español)</h2>
 <p>Contenido del CV en español...</p>
