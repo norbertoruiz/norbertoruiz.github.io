@@ -6,6 +6,10 @@ order: 1
 
 Español | English | Pdf
 
+
+<h2 id="cv-es">Curriculum Vitae (Español)</h2>
+<p>Contenido del CV en español...</p>
+
 > Add Markdown syntax content to file `_tabs/curriculum vitae.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip }
 >
@@ -85,3 +89,10 @@ Soy una persona asertiva, creativa y con alta capacidad de trabajo. Mi formació
 - **Paquete Microsoft Office:** Excel, Word, Power Point, Access
 - **Sistemas CMS:** Wordpress, Drupal, Notion 
 - **Herramientas de creación de contenido:** Premiere Pro, Cubase, Audition, Ableton, Pro tools, Photoshop, Illustrator 
+
+
+<!-- Inicio del CV en Inglés -->
+<h2 id="cv-en">Curriculum Vitae (English)</h2>
+<p>English CV content goes here...</p>
+
+
