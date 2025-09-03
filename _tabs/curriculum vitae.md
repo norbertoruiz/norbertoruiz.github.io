@@ -5,8 +5,8 @@ order: 1
 ---
 
 <div class="d-flex gap-3 mb-4">
-  <a class="btn btn-light" href="#cv-es">Español</a> |
-  <a class="btn btn-light" href="#cv-en">English</a>
+  <a class="btn btn-success" href="#cv-es">Español</a> |
+  <a class="btn btn-success" href="#cv-en">English</a>
 </div>
 
 <h2 id="cv-es">Curriculum Vitae (Español)</h2>
