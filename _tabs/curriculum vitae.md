@@ -5,12 +5,11 @@ order: 1
 ---
 
 <div class="d-flex gap-3 mb-4">
-  <a class="btn btn-gray" href="#cv-es">Español</a> |
-  <a class="btn btn-gray" href="#cv-en">English</a>
+  <a class="btn btn-light" href="#cv-es">Español</a> |
+  <a class="btn btn-light" href="#cv-en">English</a>
 </div>
 
 <h2 id="cv-es">Curriculum Vitae (Español)</h2>
-<p>Contenido del CV en español...</p>
 
 > Add Markdown syntax content to file `_tabs/curriculum vitae.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip }
@@ -95,6 +94,6 @@ Soy una persona asertiva, creativa y con alta capacidad de trabajo. Mi formació
 
 <!-- Inicio del CV en Inglés -->
 <h2 id="cv-en">Curriculum Vitae (English)</h2>
-<p>English CV content goes here...</p>
+
 
 
