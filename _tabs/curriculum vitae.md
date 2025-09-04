@@ -32,19 +32,19 @@ Soy una persona asertiva, creativa y con alta capacidad de trabajo. Mi formació
 <div class="row">
   <div class="col-md-6">
     <ul>
-      <li><b>Data Science</b> (IBM, 2025)</li>
-      <li><b>IA y Big Data en 5G</b> (Vodafone, 2025)</li>
-      <li><b>SQL</b> (Datahack, 2024)</li>
-      <li><b>Excel y PowerBI</b> (bilib, 2024)</li>
-      <li><b>R aplicado a Economía</b> (Univ. Granada, 2024)</li>
+      <li><b>Certificado profesional Data Science</b> (IBM, 2025)</li>
+      <li><b>Programación en Inteligencia Artificial y Big Data aplicables en entornos 5G</b> (Vodafone, 2025)</li>
+      <li><b>Curso SQL</b> (Datahack, 2024)</li>
+      <li><b>Curso Análisis y Visualización de datos con Excel y PowerBI</b> (bilib, 2024)</li>
+      <li><b>Curso R aplicado a la docencia e investigación en Economía</b> (Universidad de Granada, 2024)</li>
     </ul>
   </div>
   <div class="col-md-6">
     <ul>
-      <li><b>Big Data Analytics</b> (UNIA, 2022)</li>
-      <li><b>Global Education</b> (Council of Europe, 40h)</li>
-      <li><b>Intercultural Trends</b> (Anna Lindh, 30h)</li>
-      <li><b>Next Level Coaching</b> (Erasmus+ Hungría, 60h)</li>
+      <li><b>Inteligencia de Negocio y Big Data Analytics</b> (Universidad Internacional de Andalucía, 2022)</li>
+      <li><b>Euromediterranean Intercultural Trends</b> (Anna Lindh Foundation, 2020)</li>
+      <li><b>Análisis emocional de los fenómenos sociales</b> (Centro de Estudios Andaluces, 2020)</li>
+      <li><b>Global Education: Human Rights Dimension</b> (Council of Europe, 2019)</li>
     </ul>
   </div>
 </div>
