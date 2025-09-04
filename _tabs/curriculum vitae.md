@@ -109,7 +109,7 @@ Soy una persona asertiva, creativa y con alta capacidad de trabajo. Mi formació
 <!-- Inicio del CV en Inglés -->
 <h2 id="cv-en">Curriculum Vitae (English)</h2>
 
-> Add Markdown syntax content to file `_tabs/curriculum vitae.md`{: .filepath } and it will show up on this page.
+>  Click <a href="/assets/pdf/NRR_2025_M.pdf" download> here </a> to download it in PDF.
 {: .prompt-tip }
 >
 > 
