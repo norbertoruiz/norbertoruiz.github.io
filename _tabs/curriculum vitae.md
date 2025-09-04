@@ -12,7 +12,7 @@ order: 1
 
 <h2 id="cv-es">CV en Español</h2>
 
-> Click aquí para descargarlo en pdf.
+>  <a href="/assets/pdf/NRR_2025_M.pdf" download>Click aquí para descargarlo en pdf.</a>
 {: .prompt-tip }
 >
 > 
