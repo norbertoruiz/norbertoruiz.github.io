@@ -1,6 +1,6 @@
 ---
 title: Do you really need a Vector Database?
-date: 2025-09-04 15:50 +0100
+date: 2025-09-04
 categories: [LLMs, GenAI, VectorDBs, Embeddings]
 tags: [llms, genai, vectordbs, embeddings]
 author: Norberto Ruiz
