@@ -19,6 +19,7 @@ order: 1
 Soy una persona asertiva, creativa y con alta capacidad de trabajo. Mi formación dual me permite adoptar una perspectiva híbrida, combinando la estadística con una comprensión de los fenómenos sociales y económicos. El Análisis de Datos es el eje central de mi desarrollo profesional, motivo por el cual he dedicado los últimos meses a ampliar mi formación técnica.
 
 ## Formación
+
 | Título                                      | Universidad             |
 |---------------------------------------------|-------------------------|
 | Máster en Sociología Aplicada               | Universidad de Málaga   |
