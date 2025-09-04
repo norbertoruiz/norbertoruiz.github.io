@@ -50,6 +50,7 @@ Soy una persona asertiva, creativa y con alta capacidad de trabajo. Mi formació
     </ul>
   </div>
 </div>
+
 ## Experiencia
 
 ### ANÁLISIS Y SEGUIMIENTO DE RIESGO
