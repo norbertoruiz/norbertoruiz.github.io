@@ -110,5 +110,95 @@ Soy una persona asertiva, creativa y con alta capacidad de trabajo. Mi formació
 <!-- Inicio del CV en Inglés -->
 <h2 id="cv-en">Curriculum Vitae (English)</h2>
 
+> Add Markdown syntax content to file `_tabs/curriculum vitae.md`{: .filepath } and it will show up on this page.
+{: .prompt-tip }
+>
+> 
+## Professional Summary
+I am an assertive, creative person with a high work capacity. My dual academic background allows me to adopt a hybrid perspective, combining statistics with an understanding of social and economic phenomena. Data Analysis is the central axis of my professional development, which is why I have dedicated the last few months to expanding my technical training.
 
+## Education
 
+| Degree                                      | University              |
+|---------------------------------------------|-------------------------|
+| Master’s in Applied Sociology               | University of Málaga    |
+| Master’s in Economics and Development       | University of Seville   |
+| Bachelor’s in Business Administration and Management | University of Seville |
+
+## Additional Training
+
+<div class="row">
+  <div class="col-md-6">
+    <ul>
+      <li>
+  <a href="https://www.credly.com/badges/d7d6937c-373a-401a-9b38-716cce7c1401/public_url" target="_blank">
+    <b>Professional Certificate in Data Science</b> </a> (IBM, 2025) </li>
+      <li><b>Programming in Artificial Intelligence and Big Data in 5G Environments</b> (Vodafone, 2025)</li>
+      <li><b>SQL Course</b> (Datahack, 2024)</li>
+      <li><b>Data Analysis and Visualization with Excel and PowerBI</b> (bilib, 2024)</li>
+      <li><b>R Course Applied to Teaching and Research in Economics</b> (University of Granada, 2024)</li>
+    </ul>
+  </div>
+  <div class="col-md-6">
+    <ul>
+      <li><b>Business Intelligence and Big Data Analytics</b> (International University of Andalusia, 2022)</li>
+      <li><b>Euromediterranean Intercultural Trends</b> (Anna Lindh Foundation, 2020)</li>
+      <li><b>Emotional Analysis of Social Phenomena</b> (Andalusian Studies Center, 2020)</li>
+      <li><b>Global Education: Human Rights Dimension</b> (Council of Europe, 2019)</li>
+    </ul>
+  </div>
+</div>
+
+## Experience
+
+### RISK ANALYSIS AND MONITORING
+**Caja Rural del Sur | Seville, ES | 2023**
+- Observation, analysis, and synthesis of financial data to support strategic decisions.
+- Monitoring of financial indicators: analysis of liquidity, solvency, and market exposure ratios for large clients.
+- Preparation of longitudinal executive reports: design and analysis of time series for major accounts.
+- Recommendations for process automation: proposed Python scripts (Pandas, NumPy) to streamline repetitive tasks.
+
+### DATA INGESTION AND MANAGEMENT
+**National Institute of Statistics | Málaga, ES | 2022** 
+- Support in ingestion, validation, and management of data in official statistical processes.
+- Electoral data management under pressure in GEISER, ensuring traceability and accuracy during the 2022 Andalusian Elections under critical deadlines.
+- Critical review of statistical methodologies on the INE website, detecting and correcting inconsistencies in collection and validation criteria. Changes officially adopted.
+- Processing and reviewing official documents using OCR scanning.
+
+### WEB DESIGN & FREELANCE COMMUNITY MANAGER
+**Remote Work | 2018/2022** 
+- Digital strategies based on data analysis to optimize content.
+- Communication planning and content creation in WordPress and social networks for 3M Instalaciones and Feníe Energía, based on impact metrics for segmentation and message optimization.
+- Mailing and social media automation with MailChimp and Hootsuite. Multimedia production with Adobe Creative Suite.
+- Conceptualization, design, and production of an electoral spot for SIAT, based on a strategic analysis of competitors and programs, using Adobe Premiere and After Effects.
+- Design and execution of awareness campaigns for the Student Council of the University of Seville.
+- Scriptwriting and production of a micro-documentary for the NGO Economistas sin Fronteras.
+
+### RESEARCHER
+**Andalusian Studies Center | Remote Work | 2022** 
+- Documentation and qualitative-quantitative triangulation in text processing.
+- Coding and text analysis with Atlas.ti, identifying thematic patterns.
+- The work was published in the *Blas Infante Library* collection.
+
+### STOCK MANAGEMENT
+**Diveralia | Seville, ES | 2017** 
+- Management and optimization of product stock using digital tools.
+- Sales data analysis in Excel to maintain updated stock.
+- Implementation of automated formulas to generate restocking alerts.
+- Development of a coding system to improve product location and storage.
+
+### DIGITAL LITERACY
+**Caminar preguntando / Red Cross. Seville, ES | 2018** 
+- Design and implementation of digital and audiovisual literacy programs for youth and families.
+- Development and delivery of workshops on critical and responsible use of the internet and social networks.
+- Teaching of basic programming concepts and digital tools.
+- Creation of educational materials on parental control and misinformation in digital environments.
+
+## Skills
+
+- **Statistical Software & Data Analysis:** Stata, Pentaho, RapidMiner, SPSS, Weka, Gretl 
+- **Programming Languages:** Python, R, SQL, CSS, HTML, Java 
+- **Visualization Tools:** Power BI, Tableau 
+- **Microsoft Office Suite:** Excel, Word, PowerPoint, Access
+- **CMS Systems:** WordPress, Drupal, Notion 
+- **Content Creation Tools:** Premiere Pro, Cubase, Audition, Ableton, Pro Tools, Photoshop, Illustrator
