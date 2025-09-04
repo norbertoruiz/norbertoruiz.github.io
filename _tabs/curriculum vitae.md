@@ -12,7 +12,7 @@ order: 1
 
 <h2 id="cv-es">CV en Español</h2>
 
-> Add Markdown syntax content to file `_tabs/curriculum vitae.md`{: .filepath } and it will show up on this page.
+> Click aquí para descargarlo en pdf.
 {: .prompt-tip }
 >
 > 
