@@ -32,7 +32,9 @@ Soy una persona asertiva, creativa y con alta capacidad de trabajo. Mi formació
 <div class="row">
   <div class="col-md-6">
     <ul>
-      <li><b>Certificado profesional Data Science</b> (IBM, 2025)</li>
+      <li>
+  <a href="https://www.credly.com/badges/d7d6937c-373a-401a-9b38-716cce7c1401/public_url" target="_blank">
+    <b>Certificado profesional Data Science</b> </a> (IBM, 2025) </li>
       <li><b>Programación en Inteligencia Artificial y Big Data aplicables en entornos 5G</b> (Vodafone, 2025)</li>
       <li><b>Curso SQL</b> (Datahack, 2024)</li>
       <li><b>Curso Análisis y Visualización de datos con Excel y PowerBI</b> (bilib, 2024)</li>
