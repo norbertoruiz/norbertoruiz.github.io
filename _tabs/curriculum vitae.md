@@ -9,7 +9,7 @@ order: 1
   <a class="btn btn-link" href="#cv-en">English</a>
 </div>
 
-<h2 id="cv-es">Curriculum Vitae (Español)</h2>
+<h2 id="cv-es">CV en Español</h2>
 
 > Add Markdown syntax content to file `_tabs/curriculum vitae.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip }
@@ -19,10 +19,11 @@ order: 1
 Soy una persona asertiva, creativa y con alta capacidad de trabajo. Mi formación dual me permite adoptar una perspectiva híbrida, combinando la estadística con una comprensión de los fenómenos sociales y económicos. El Análisis de Datos es el eje central de mi desarrollo profesional, motivo por el cual he dedicado los últimos meses a ampliar mi formación técnica.
 
 ## Formación
-
+<p>
 - **Máster en Sociología Aplicada** | Universidad de Málaga 
 - **Máster en Economía y Desarrollo** | Universidad de Sevilla 
 - **Grado en Administración y Dirección de Empresas** | Universidad de Sevilla
+</p>
 
 ## Formación Complementaria
 
