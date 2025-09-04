@@ -19,21 +19,40 @@ order: 1
 Soy una persona asertiva, creativa y con alta capacidad de trabajo. Mi formación dual me permite adoptar una perspectiva híbrida, combinando la estadística con una comprensión de los fenómenos sociales y económicos. El Análisis de Datos es el eje central de mi desarrollo profesional, motivo por el cual he dedicado los últimos meses a ampliar mi formación técnica.
 
 ## Formación
-- **Máster en Sociología Aplicada** | Universidad de Málaga 
-- **Máster en Economía y Desarrollo** | Universidad de Sevilla 
-- **Grado en Administración y Dirección de Empresas** | Universidad de Sevilla
+| Título                                      | Universidad             |
+|---------------------------------------------|-------------------------|
+| Máster en Sociología Aplicada               | Universidad de Málaga   |
+| Máster en Economía y Desarrollo             | Universidad de Sevilla  |
+| Grado en Administración y Dirección de Empresas | Universidad de Sevilla |
 
 ## Formación Complementaria
 
-- **Certificado Profesional Data Science** | 2025 | IBM 
-- **Programación en Inteligencia Artificial y Big Data aplicables en entornos 5G** | 2025 | Vodafone 
-- **Curso SQL** | 2024 | Datahack 
-- **Curso Análisis y Visualización de datos con Excel y PowerBI** | 2024 | bilib 
-- **Curso R aplicado a la docencia e investigación en Economía** | 2024 | Universidad de Granada 
-- **Inteligencia de Negocio y Big Data Analytics** | 2022 | Universidad Internacional de Andalucía
-- **Global Education: The Human Rights Dimension** | 40h | Council of Europe
-- **Euromediterranean Intercultural Trends** | 30h | Anna Lindh Foundation 
-- **Next Level Coaching** | 60h | Erasmus+ Hungría 
+- **Certificado Profesional Data Science** (2025)  
+  IBM  
+
+- **Programación en Inteligencia Artificial y Big Data aplicables en entornos 5G** (2025)  
+  Vodafone  
+
+- **Curso SQL** (2024)  
+  Datahack  
+
+- **Análisis y Visualización de datos con Excel y PowerBI** (2024)  
+  bilib  
+
+- **Curso R aplicado a la docencia e investigación en Economía** (2024)  
+  Universidad de Granada  
+
+- **Inteligencia de Negocio y Big Data Analytics** (2022)  
+  Universidad Internacional de Andalucía  
+
+- **Global Education: The Human Rights Dimension** (40h)  
+  Council of Europe  
+
+- **Euromediterranean Intercultural Trends** (30h)  
+  Anna Lindh Foundation  
+
+- **Next Level Coaching** (60h)  
+  Erasmus+ Hungría  
 
 ## Experiencia
 
