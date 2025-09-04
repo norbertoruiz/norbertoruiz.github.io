@@ -103,7 +103,14 @@ Soy una persona asertiva, creativa y con alta capacidad de trabajo. Mi formació
 - **Herramientas de visualización:** Power BI, Tableau 
 - **Paquete Microsoft Office:** Excel, Word, Power Point, Access
 - **Sistemas CMS:** Wordpress, Drupal, Notion 
-- **Herramientas de creación de contenido:** Premiere Pro, Cubase, Audition, Ableton, Pro tools, Photoshop, Illustrator 
+- **Herramientas de creación de contenido:** Premiere Pro, Cubase, Audition, Ableton, Pro tools, Photoshop, Illustrator
+
+## Idiomas
+
+| Idioma                                      | Nivel                   |
+|---------------------------------------------|-------------------------|
+| Español                                     | Nativo                  |
+| Inglés                                      | B2 (preparando C1)      |
 
 
 <!-- Inicio del CV en Inglés -->
@@ -201,3 +208,10 @@ I am an assertive, creative person with a high work capacity. My dual academic b
 - **Microsoft Office Suite:** Excel, Word, PowerPoint, Access
 - **CMS Systems:** WordPress, Drupal, Notion 
 - **Content Creation Tools:** Premiere Pro, Cubase, Audition, Ableton, Pro Tools, Photoshop, Illustrator
+
+## Languages
+
+| Language                                    | Level                   |
+|---------------------------------------------|-------------------------|
+| Spanish                                     | Native                  |
+| English                                     | B2 (working on C1)      |
