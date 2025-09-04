@@ -12,7 +12,7 @@ order: 1
 
 <h2 id="cv-es">CV en Español</h2>
 
-> <a href="/assets/pdf/NRR_2025_M.pdf" download> Click `aquí`{: .filepath } para descargarlo en pdf. </a>
+> Add Markdown syntax content to file `_tabs/curriculum vitae.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip }
 >
 > 
