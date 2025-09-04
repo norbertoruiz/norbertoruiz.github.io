@@ -10,9 +10,6 @@ author: Norberto Ruiz
 
 Everywhere I go, I see his face – "VectorDBs". Seriously, with the rise of GenAI and the growing number of applications utilizing Large Language Models (LLMs), Vector Databases have been posited as a de facto component in any LLM-powered application architecture. You might wonder why. The answer is seemingly straightforward: "LLMs have a limited context window, and to select the most relevant data, a VectorDB is necessary." This seems logical at first, but let's think more about it and consider the alternatives.
 
-![Desktop View](/assets/img/posts/2023-11-21-vector-database/VectorDBs-meme.jpg){: width="500"}
-_Spiderman meme of seeing vector databases everywhere_
-
 ### 1. Why Vector Search over Keyword Search?
 
 Although Vector Search is popular for its ability to deliver semantically similar results, something Keyword Search can't do, it's not without its drawbacks. Keyword search is more accurate, faster, and can scale with new data more effectively.
