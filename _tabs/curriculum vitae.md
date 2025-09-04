@@ -5,14 +5,13 @@ order: 1
 ---
 
 <div class="d-flex gap-3 mb-4">
-  <a class="btn btn-link" href="#cv-es">Español</a> |
-  <a class="btn btn-link" href="#cv-en">English</a> |
-  <a class="btn btn-link" href="/assets/pdf/NRR_2025_M.pdf" download>PDF</a> 
+  <a class="btn btn-link" href="#cv-es">Español</a> _
+  <a class="btn btn-link" href="#cv-en">English</a> 
 </div>
 
 <h2 id="cv-es">CV en Español</h2>
 
->  <a href="/assets/pdf/NRR_2025_M.pdf" download>Click aquí para descargarlo en pdf.</a>
+>  Click <a href="/assets/pdf/NRR_2025_M.pdf" download> aquí </a> para descargarlo en pdf.
 {: .prompt-tip }
 >
 > 
