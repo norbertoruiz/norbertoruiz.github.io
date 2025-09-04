@@ -29,32 +29,25 @@ Soy una persona asertiva, creativa y con alta capacidad de trabajo. Mi formació
 
 ## Formación Complementaria
 
-- **Certificado Profesional Data Science** (2025)  
-  IBM  
-
-- **Programación en Inteligencia Artificial y Big Data aplicables en entornos 5G** (2025)  
-  Vodafone  
-
-- **Curso SQL** (2024)  
-  Datahack  
-
-- **Análisis y Visualización de datos con Excel y PowerBI** (2024)  
-  bilib  
-
-- **Curso R aplicado a la docencia e investigación en Economía** (2024)  
-  Universidad de Granada  
-
-- **Inteligencia de Negocio y Big Data Analytics** (2022)  
-  Universidad Internacional de Andalucía  
-
-- **Global Education: The Human Rights Dimension** (40h)  
-  Council of Europe  
-
-- **Euromediterranean Intercultural Trends** (30h)  
-  Anna Lindh Foundation  
-
-- **Next Level Coaching** (60h)  
-  Erasmus+ Hungría  
+<div class="row">
+  <div class="col-md-6">
+    <ul>
+      <li><b>Data Science</b> (IBM, 2025)</li>
+      <li><b>IA y Big Data en 5G</b> (Vodafone, 2025)</li>
+      <li><b>SQL</b> (Datahack, 2024)</li>
+      <li><b>Excel y PowerBI</b> (bilib, 2024)</li>
+      <li><b>R aplicado a Economía</b> (Univ. Granada, 2024)</li>
+    </ul>
+  </div>
+  <div class="col-md-6">
+    <ul>
+      <li><b>Big Data Analytics</b> (UNIA, 2022)</li>
+      <li><b>Global Education</b> (Council of Europe, 40h)</li>
+      <li><b>Intercultural Trends</b> (Anna Lindh, 30h)</li>
+      <li><b>Next Level Coaching</b> (Erasmus+ Hungría, 60h)</li>
+    </ul>
+  </div>
+</div>
 
 ## Experiencia
 
