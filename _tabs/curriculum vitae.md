@@ -7,12 +7,12 @@ order: 1
 <div class="d-flex gap-3 mb-4">
   <a class="btn btn-link" href="#cv-es">Español</a> |
   <a class="btn btn-link" href="#cv-en">English</a> |
-  <a class="btn btn-link" href="/assets/pdf/NRR_2025_M.pdf" download>PDF</a>
+  <a class="btn btn-link" href="/assets/pdf/NRR_2025_M.pdf" download>PDF
 </div>
 
 <h2 id="cv-es">CV en Español</h2>
 
-> Add Markdown syntax content to file `_tabs/curriculum vitae.md`{: .filepath } and it will show up on this page.
+> <a href="/assets/pdf/NRR_2025_M.pdf" download> Click `aquí`{: .filepath } para descargarlo en pdf. </a>
 {: .prompt-tip }
 >
 > 
