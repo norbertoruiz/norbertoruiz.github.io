@@ -56,7 +56,7 @@ Algunas preguntas que no deberían omitirse:
 
 Ignorar estas cuestiones puede llevar a modelos que funcionan en apariencia pero cuyas conclusiones son espurias. En econometría, por ejemplo, un modelo con heterocedasticidad ofrece coeficientes correctos en promedio, pero intervalos de confianza y tests engañosos.
 
-### Preprocesamiento como fase de diagnóstico.
+### 4. Preprocesamiento como fase de diagnóstico.
 
 El preprocesamiento no es solo “preparar” los datos, también es un diagnóstico inicial. Aquí detectamos:
 
@@ -67,44 +67,44 @@ El preprocesamiento no es solo “preparar” los datos, también es un diagnós
 
 Este diagnóstico orienta qué técnicas aplicar y, lo más importante, qué supuestos tendremos que comprobar en los modelos posteriores.
 
-### Lo que vendrá en la serie.
+### 5. Lo que vendrá en la serie.
 
 En los próximos artículos entraremos en cada aspecto con mayor detalle. A modo de adelanto, estos son los temas que abordaremos:
 
-1. Problemas comunes en los datos
+**Problemas comunes en los datos**
 
 - Valores ausentes, inconsistencias, duplicados, outliers y ruido.
 - Métodos de imputación y criterios para documentar decisiones.
 
-2. Transformaciones y construcción de variables
+**Transformaciones y construcción de variables**
 
 - Normalización y estandarización.
 - Codificación de variables categóricas (one-hot, target encoding).
 - Discretización supervisada y no supervisada.
 
-3. Exploración estadística de los datos
+**Exploración estadística de los datos**
 
 - Análisis univariado y multivariado.
 - Pruebas de correlación y dependencia.
 - Visualizaciones como herramienta de diagnóstico.
 
-4. Supuestos estadísticos clave
+**Supuestos estadísticos clave**
 
 - Normalidad, independencia y homocedasticidad.
 - Consecuencias de violarlos.
 
-5. La heterocedasticidad en detalle
+**La heterocedasticidad en detalle**
 
 - Qué es, cómo detectarla y cómo corregirla.
 - Ejemplos aplicados en datos reales.
 
-6. Técnicas avanzadas de preprocesamiento
+**Técnicas avanzadas de preprocesamiento**
 
 - Balanceo de clases en clasificación.
 - Reducción de dimensionalidad.
 - Validación de clusters y control de ruido.
 
-7. Checklist y buenas prácticas
+**Checklist y buenas prácticas**
 
 - Cómo sistematizar el preprocesamiento en proyectos reales.
 - Errores frecuentes y cómo evitarlos.
