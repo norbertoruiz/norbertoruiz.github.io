@@ -22,25 +22,25 @@ El preprocesamiento es el conjunto de técnicas y procedimientos que convierten 
 
 Entre sus principales tareas se encuentran:
 
-- Selección de datos: Elegir qué atributos y registros se consideran relevantes.
+- **Selección de datos**: Elegir qué atributos y registros se consideran relevantes.
 
 Ejemplo: en un dataset de clientes, decidir si se incluyen variables demográficas, hábitos de consumo o ambas.
 
-- Limpieza: Tratamiento de valores ausentes, detección de inconsistencias, eliminación de duplicados y gestión de outliers.
+- **Limpieza**: Tratamiento de valores ausentes, detección de inconsistencias, eliminación de duplicados y gestión de outliers.
 
 Ejemplo: un campo “edad” con valores negativos debe corregirse o eliminarse.
 
-- Transformación: Escalado, normalización, discretización, codificación de variables categóricas.
+- **Transformación**: Escalado, normalización, discretización, codificación de variables categóricas.
 
 Ejemplo: transformar “hombre/mujer” en variables binarias, o normalizar ingresos para reducir el efecto de la escala.
 
-- Construcción de variables: Generar nuevas variables derivadas.
+- **Construcción de variables**: Generar nuevas variables derivadas.
 
 Ejemplo: crear una variable “densidad de población” dividiendo habitantes por superficie.
 
-- Integración: Unir datos procedentes de distintas fuentes en un solo conjunto coherente.
+- **Integración**: Unir datos procedentes de distintas fuentes en un solo conjunto coherente.
 
-- Reducción: Simplificar los datos sin perder representatividad: selección de características, reducción de dimensionalidad, muestreo.
+- **Reducción**: Simplificar los datos sin perder representatividad: selección de características, reducción de dimensionalidad, muestreo.
 
 ### 3. Más allá del ETL: el papel de la estadística.
 
