@@ -1,7 +1,7 @@
 ---
-title: heterocedasticidad
+title: Heterocedasticidad
 date: 2025-09-09 10:00 +0100
-categories: [Data Science, Estadística, Machine Learning, Preprocesamiento]
+categories: [Data Science, Estadística]
 tags: [heterocedasticidad, preprocesamiento, etl, ciencia-de-datos, big-data, estadística]
 author: Norberto Ruiz
 ---
@@ -10,7 +10,7 @@ author: Norberto Ruiz
 
 Este artículo forma parte de la serie “Preprocesamiento de Datos con Enfoque Estadístico”, cuyo objetivo es aportar las bases conceptuales y prácticas que muchas veces se pasan por alto en procesos ETL y de análisis de datos. Aunque hoy en día abundan las herramientas para mover, transformar y almacenar datos, no siempre se tienen en cuenta los supuestos estadísticos que garantizan que los resultados sean válidos. En esta serie repasaremos, paso a paso, cómo preparar los datos con rigor para que los modelos y conclusiones sean fiables.
 
-###¿Qué es la heterocedasticidad?
+### ¿Qué es la heterocedasticidad?
 
 En un modelo de regresión lineal asumimos que los errores (la diferencia entre lo que predice el modelo y lo que observamos en la realidad) tienen varianza constante para todos los valores de las variables explicativas. A este supuesto se le llama homocedasticidad.
 
@@ -22,7 +22,7 @@ Un ejemplo intuitivo:
 - A altos niveles de ingresos, las diferencias crecen mucho: hay personas que gastan modestamente y otras que gastan en exceso.
 - En ese caso, la dispersión de los errores del modelo no es constante: tenemos heterocedasticidad.
 
-###¿Por qué es un problema?
+### ¿Por qué es un problema?
 
 La heterocedasticidad no invalida los coeficientes estimados por mínimos cuadrados ordinarios (OLS): siguen siendo insesgados. El verdadero problema está en la precisión de las estimaciones:
 
@@ -32,13 +32,13 @@ La heterocedasticidad no invalida los coeficientes estimados por mínimos cuadra
 
 En términos sencillos: la heterocedasticidad no estropea la media del estimador, pero sí su fiabilidad para hacer inferencias.
 
-###¿Cómo detectar la heterocedasticidad?
-####1. Métodos gráficos
+### ¿Cómo detectar la heterocedasticidad?
+#### 1. Métodos gráficos
 Son la primera herramienta de diagnóstico:
 - Gráfico de residuos vs valores ajustados: si la nube de puntos tiene forma de abanico (varianza creciente o decreciente), sospechamos heterocedasticidad.
 - Residuos absolutos o al cuadrado vs variable explicativa: la tendencia creciente o decreciente es otro indicador.
 
-####2. Test estadísticos
+#### 2. Test estadísticos
 Existen pruebas formales que permiten verificar la hipótesis nula de homocedasticidad:
 
 - Test de Breusch–Pagan: evalúa si la varianza de los errores está relacionada con los regresores.
@@ -61,7 +61,7 @@ Supongamos que estimamos un modelo de regresión lineal para predecir el consumo
 
 4. Concluimos que hay heterocedasticidad y debemos corregirla para realizar inferencias fiables.
 
-###¿Cómo corregirla o mitigarla?
+### ¿Cómo corregirla o mitigarla?
 
 Existen varias estrategias, que pueden aplicarse según el contexto:
 
@@ -80,7 +80,7 @@ Existen varias estrategias, que pueden aplicarse según el contexto:
 4. Redefinición del modelo
 - A veces la heterocedasticidad surge por omitir variables relevantes. Incluirlas puede mejorar el ajuste y estabilizar la varianza.
 
-###Conexión con otros supuestos de la regresión
+### Conexión con otros supuestos de la regresión
 
 La heterocedasticidad es solo una de las condiciones necesarias para confiar en un modelo de regresión. Junto a ella encontramos:
 - Linealidad de la relación entre variables.
@@ -90,7 +90,7 @@ La heterocedasticidad es solo una de las condiciones necesarias para confiar en 
 
 Comprender cómo se relacionan estos supuestos nos ayuda a tener una visión más amplia: no se trata solo de ajustar un modelo, sino de validar que sus conclusiones son sólidas.
 
-###Conclusión
+### Conclusión
 
 La heterocedasticidad es un fenómeno común en datos económicos, financieros y sociales. Aunque no invalida los coeficientes, sí afecta directamente la credibilidad de nuestras conclusiones. Detectarla y corregirla es parte esencial del preprocesamiento estadístico y del buen uso de la regresión lineal.
 
