@@ -48,11 +48,9 @@ Las herramientas de ETL (Extraer, Transformar, Cargar) resuelven gran parte de l
 
 Algunas preguntas que no deberían omitirse:
 
-¿La distribución de las variables es compatible con el modelo que quiero aplicar?
-
-¿Las observaciones son independientes o hay autocorrelación?
-
-¿Los errores cumplen con la homocedasticidad (varianza constante)?
+- ¿La distribución de las variables es compatible con el modelo que quiero aplicar?
+- ¿Las observaciones son independientes o hay autocorrelación?
+- ¿Los errores cumplen con la homocedasticidad (varianza constante)?
 
 Ignorar estas cuestiones puede llevar a modelos que funcionan en apariencia pero cuyas conclusiones son espurias. En econometría, por ejemplo, un modelo con heterocedasticidad ofrece coeficientes correctos en promedio, pero intervalos de confianza y tests engañosos.
 
