@@ -43,24 +43,49 @@ Son la primera herramienta de diagnóstico:
 #### 2. Test estadísticos
 Existen pruebas formales que permiten verificar la hipótesis nula de homocedasticidad:
 
-- Test de Breusch–Pagan: evalúa si la varianza de los errores está relacionada con los regresores.
+- **Test de Breusch–Pagan**: evalúa si la varianza de los errores está relacionada con los regresores.
 
-- Test de White: más general, no requiere especificar la forma de la heterocedasticidad.
+Hipótesis nula (H₀): la varianza de los errores es constante (homocedasticidad).  
+Si el p-valor < 0.05, rechazamos H₀ → evidencia de heterocedasticidad. 
 
-- Test de Goldfeld–Quandt: útil cuando sospechamos que la varianza cambia con el tamaño de una variable en particular.
+Ejemplo en R:
+```R
+library(lmtest)
+modelo <- lm(y ~ x, data = datos)
+bptest(modelo)
+```
+
+- **Test de White**: más general, no requiere especificar la forma de la heterocedasticidad.
+
+Hipótesis nula (H₀): homocedasticidad.
+Si el p-valor < 0.05 → rechazamos H₀ → evidencia de heterocedasticidad.
+
+```R
+library(lmtest)
+bptest(modelo, ~ fitted(modelo) + I(fitted(modelo)^2))
+```
+
+- **Test de Goldfeld–Quandt**: útil cuando sospechamos que la varianza cambia con el tamaño de una variable en particular.
+
+Hipótesis nula (H₀): varianza constante.
+Hipótesis alternativa (H₁): la varianza aumenta o disminuye con una variable ordenadora.
+La usamos cuando sospechamos heterocedasticidad monótona (ejemplo: mayor varianza en empresas más grandes).
+Si p-valor < 0.05 → rechazamos H₀ → evidencia de heterocedasticidad.
+
+```R
+library(lmtest)
+gqtest(modelo, order.by = ~x, data = datos)
+```
 
 En la práctica, se suele comenzar con gráficos y luego confirmar con uno o varios de estos tests.
 
-###Ejemplo aplicado (simplificado)
+### Ejemplo aplicado (simplificado)
 
 Supongamos que estimamos un modelo de regresión lineal para predecir el consumo energético de los hogares en función de su renta.
 
 1. Ajustamos el modelo y calculamos los residuos.
-
 2. Al graficar residuos vs renta, vemos un patrón en abanico: a mayor renta, mayor dispersión en los errores.
-
 3. Aplicamos el test de Breusch–Pagan y obtenemos un p-valor menor a 0.05 → rechazamos la hipótesis de homocedasticidad.
-
 4. Concluimos que hay heterocedasticidad y debemos corregirla para realizar inferencias fiables.
 
 ### ¿Cómo corregirla o mitigarla?
