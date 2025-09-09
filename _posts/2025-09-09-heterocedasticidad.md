@@ -1,5 +1,5 @@
 ---
-title: Heterocedasticidad
+title: heterocedasticidad
 date: 2025-09-09 10:00 +0100
 categories: [Data Science, Estadística, Machine Learning, Preprocesamiento]
 tags: [heterocedasticidad, preprocesamiento, etl, ciencia-de-datos, big-data, estadística]
@@ -96,3 +96,5 @@ Comprender cómo se relacionan estos supuestos nos ayuda a tener una visión má
 La heterocedasticidad es un fenómeno común en datos económicos, financieros y sociales. Aunque no invalida los coeficientes, sí afecta directamente la credibilidad de nuestras conclusiones. Detectarla y corregirla es parte esencial del preprocesamiento estadístico y del buen uso de la regresión lineal.
 
 En este artículo hemos visto qué es, cómo detectarla y cómo tratarla. En próximos textos de la serie continuaremos explorando otros problemas frecuentes en los datos y cómo solucionarlos con un enfoque estadístico riguroso.
+
+\#heterocedasticidad \#preprocesamiento \#etl \#ciencia-de-datos \#big-data \#estadística 
