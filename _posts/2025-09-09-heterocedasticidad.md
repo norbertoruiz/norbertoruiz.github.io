@@ -4,6 +4,7 @@ date: 2025-09-09 10:00 +0100
 categories: [Data Science, Estadística]
 tags: [heterocedasticidad, preprocesamiento, etl, ciencia-de-datos, big-data, estadística]
 author: Norberto Ruiz
+permalink: /posts/heterocedasticidad/
 ---
 
 ## Heterocedasticidad: qué es, cómo detectarla y cómo corregirla en regresión
