@@ -6,7 +6,7 @@ tags: [preprocesamiento, etl, limpieza-de-datos, normalización, heterocedastici
 author: Norberto Ruiz
 ---
 
-## Introducción al preprocesamiento de datos. Un enfoque desde la estadística. 
+## Un enfoque desde la estadística. 
 
 Este artículo forma parte de la serie “Preprocesamiento de Datos con Enfoque Estadístico”, cuyo objetivo es aportar las bases conceptuales y prácticas que muchas veces se pasan por alto en procesos ETL y de análisis de datos. Aunque hoy en día abundan las herramientas para mover, transformar y almacenar datos, no siempre se tienen en cuenta los supuestos estadísticos que garantizan que los resultados sean válidos. En esta serie repasaremos, paso a paso, cómo preparar los datos con rigor para que los modelos y conclusiones sean fiables.
 
