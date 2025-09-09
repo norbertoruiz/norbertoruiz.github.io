@@ -10,7 +10,6 @@ author: Norberto Ruiz
 
 Este artículo forma parte de la serie “Preprocesamiento de Datos con Enfoque Estadístico”, cuyo objetivo es aportar las bases conceptuales y prácticas que muchas veces se pasan por alto en procesos ETL y de análisis de datos. Aunque hoy en día abundan las herramientas para mover, transformar y almacenar datos, no siempre se tienen en cuenta los supuestos estadísticos que garantizan que los resultados sean válidos. En esta serie repasaremos, paso a paso, cómo preparar los datos con rigor para que los modelos y conclusiones sean fiables.
 
-
 ###¿Qué es la heterocedasticidad?
 
 En un modelo de regresión lineal asumimos que los errores (la diferencia entre lo que predice el modelo y lo que observamos en la realidad) tienen varianza constante para todos los valores de las variables explicativas. A este supuesto se le llama homocedasticidad.
