@@ -38,10 +38,12 @@ En términos sencillos: la heterocedasticidad no estropea la media del estimador
 #### 1. Métodos gráficos
 Son la primera herramienta de diagnóstico:
 - Gráfico de residuos vs valores ajustados: si la nube de puntos tiene forma de abanico (varianza creciente o decreciente), sospechamos heterocedasticidad.
+
 ![Gráfico heterocedasticidad](/assets/img/posts/post_heterocedasticidad/grafico%20heterocedasticidad.png)
  
 - Residuos absolutos o al cuadrado vs variable explicativa: la tendencia creciente o decreciente es otro indicador.
-  ![Gráfico heterocedasticidad residuos](/assets/img/posts/post_heterocedasticidad/grafico%20heterocedasticidad%20residuos.png)
+
+![Gráfico heterocedasticidad residuos](/assets/img/posts/post_heterocedasticidad/grafico%20heterocedasticidad%20residuos.png)
 
 #### 2. Test estadísticos
 Existen pruebas formales que permiten verificar la hipótesis nula de homocedasticidad:
