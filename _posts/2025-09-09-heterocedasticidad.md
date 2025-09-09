@@ -8,29 +8,28 @@ permalink: /posts/heterocedasticidad/
 ---
 
 ## Heterocedasticidad: qué es, cómo detectarla y cómo corregirla. 
-Estamos ante uno de los problemas más comunes en regresión: no invalida los coeficientes, pero distorsiona errores estándar y las conclusiones si no se corrige.
+Estamos ante uno de los problemas más comunes en regresión: aunque no invalida los coeficientes, distorsiona errores estándar y las conclusiones si no se corrige.
 
-Este artículo forma parte de la serie “Preprocesamiento de Datos con Enfoque Estadístico”, cuyo objetivo es aportar las bases conceptuales y prácticas que muchas veces se pasan por alto en procesos ETL y de análisis de datos. Aunque hoy en día abundan las herramientas para mover, transformar y almacenar datos, no siempre se tienen en cuenta los supuestos estadísticos que garantizan que los resultados sean válidos. En esta serie repasaremos, paso a paso, cómo preparar los datos con rigor para que los modelos y conclusiones sean fiables.
+Este artículo forma parte de la serie “Preprocesamiento de Datos con enfoque estadístico”, cuyo objetivo es aportar las bases conceptuales y prácticas que muchas veces se pasan por alto en procesos ETL y de análisis de datos. Aunque hoy en día abundan las herramientas para mover, transformar y almacenar datos, no siempre se tienen en cuenta los supuestos estadísticos que garantizan que los resultados sean válidos. En esta serie repasaremos, paso a paso, cómo preparar los datos con rigor para que los modelos y conclusiones sean fiables.
 
 ### ¿Qué es la heterocedasticidad?
 
-En un modelo de regresión lineal asumimos que los errores (la diferencia entre lo que predice el modelo y lo que observamos en la realidad) tienen varianza constante para todos los valores de las variables explicativas. A este supuesto se le llama homocedasticidad.
+En un modelo de regresión lineal asumimos que los errores, la diferencia entre lo que predice el modelo y lo que observamos en la realidad, tienen varianza constante para todos los valores de las variables explicativas. A este supuesto se le llama **homocedasticidad**.
 
-Cuando esta condición no se cumple y la varianza de los errores cambia sistemáticamente a lo largo de las observaciones, hablamos de heterocedasticidad.
+Cuando esta condición no se cumple y la varianza de los errores cambia sistemáticamente a lo largo de las observaciones, hablamos de **heterocedasticidad**.
 
 Un ejemplo intuitivo:
 - Imagina que analizamos la relación entre nivel de ingresos y gasto en ocio.
 - A bajos niveles de ingresos, las diferencias de gasto entre individuos son pequeñas.
 - A altos niveles de ingresos, las diferencias crecen mucho: hay personas que gastan modestamente y otras que gastan en exceso.
-- En ese caso, la dispersión de los errores del modelo no es constante: tenemos heterocedasticidad.
+- En ese caso, la dispersión de los errores del modelo no es constante: tenemos *heterocedasticidad*.
 
 ### ¿Por qué es un problema?
 
-La heterocedasticidad no invalida los coeficientes estimados por mínimos cuadrados ordinarios (OLS): siguen siendo insesgados. El verdadero problema está en la precisión de las estimaciones:
+Como ya avanzabamos, la *heterocedasticidad* no invalida los coeficientes estimados por mínimos cuadrados ordinarios (OLS): siguen siendo insesgados. El problema está en la precisión de las estimaciones:
 
-- Los errores estándar de los coeficientes resultan incorrectos.
-- Como consecuencia, las pruebas de significación (t de Student, F de Snedecor) y los intervalos de confianza dejan de ser fiables.
-- Esto puede llevarnos a creer que una variable es significativa cuando no lo es, o a subestimar la incertidumbre del modelo.
+Los errores estándar de los coeficientes resultan incorrectos. Y, en consecuencia, las pruebas de significación (t de Student, F de Snedecor) y los intervalos de confianza dejan de ser fiables. 
+Algo que puede llevarnos a creer que una variable es significativa cuando no lo es, o a subestimar la incertidumbre del modelo.
 
 En términos sencillos: la heterocedasticidad no estropea la media del estimador, pero sí su fiabilidad para hacer inferencias.
 
@@ -50,8 +49,8 @@ Existen pruebas formales que permiten verificar la hipótesis nula de homocedast
 
 - **Test de Breusch–Pagan**: evalúa si la varianza de los errores está relacionada con los regresores.
 
-Hipótesis nula (H₀): la varianza de los errores es constante (homocedasticidad).  
-Si el p-valor < 0.05, rechazamos H₀ → evidencia de heterocedasticidad. 
+**Hipótesis nula (H₀)**: la varianza de los errores es constante (homocedasticidad).  
+Si el p-valor < 0.05, **rechazamos H₀ → evidencia de heterocedasticidad**. 
 
 Ejemplo en R:
 ```R
@@ -62,8 +61,8 @@ bptest(modelo)
 
 - **Test de White**: más general, no requiere especificar la forma de la heterocedasticidad.
 
-Hipótesis nula (H₀): homocedasticidad.
-Si el p-valor < 0.05 → rechazamos H₀ → evidencia de heterocedasticidad.
+**Hipótesis nula (H₀)**: homocedasticidad.
+Si el p-valor < 0.05 → **rechazamos H₀ → evidencia de heterocedasticidad**.
 
 ```R
 library(lmtest)
@@ -72,10 +71,10 @@ bptest(modelo, ~ fitted(modelo) + I(fitted(modelo)^2))
 
 - **Test de Goldfeld–Quandt**: útil cuando sospechamos que la varianza cambia con el tamaño de una variable en particular.
 
-Hipótesis nula (H₀): varianza constante.
+**Hipótesis nula (H₀)**: varianza constante.
 Hipótesis alternativa (H₁): la varianza aumenta o disminuye con una variable ordenadora.
 La usamos cuando sospechamos heterocedasticidad monótona (ejemplo: mayor varianza en empresas más grandes).
-Si p-valor < 0.05 → rechazamos H₀ → evidencia de heterocedasticidad.
+Si p-valor < 0.05 → **rechazamos H₀ → evidencia de heterocedasticidad**.
 
 ```R
 library(lmtest)
@@ -122,10 +121,9 @@ La heterocedasticidad es solo una de las condiciones necesarias para confiar en 
 
 Comprender cómo se relacionan estos supuestos nos ayuda a tener una visión más amplia: no se trata solo de ajustar un modelo, sino de validar que sus conclusiones son sólidas.
 
-### Conclusión
 
-La heterocedasticidad es un fenómeno común en datos económicos, financieros y sociales. Aunque no invalida los coeficientes, sí afecta directamente la credibilidad de nuestras conclusiones. Detectarla y corregirla es parte esencial del preprocesamiento estadístico y del buen uso de la regresión lineal.
+En definitiva, la **heterocedasticidad** es un fenómeno común en datos económicos, financieros y sociales. **Aunque no invalida los coeficientes**, sí afecta directamente la credibilidad de nuestras conclusiones. Detectarla y corregirla es parte esencial del preprocesamiento estadístico y del buen uso de la regresión lineal.
 
-En este artículo hemos visto qué es, cómo detectarla y cómo tratarla. En próximos textos de la serie continuaremos explorando otros problemas frecuentes en los datos y cómo solucionarlos con un enfoque estadístico riguroso.
+
 
 \#heterocedasticidad \#preprocesamiento \#etl \#ciencia-de-datos \#big-data \#estadística 
