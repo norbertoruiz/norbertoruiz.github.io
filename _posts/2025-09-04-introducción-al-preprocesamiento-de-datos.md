@@ -107,9 +107,9 @@ En los próximos artículos entraremos en cada aspecto con mayor detalle. A modo
 
 Por tanto, el preprocesamiento de datos es mucho más que un paso previo: es la base sobre la que se construyen los modelos y análisis posteriores. En este sentido, al haber mencionado supuestos clásicos como la normalidad, la homocedasticidad o la independencia de las observaciones, conviene precisar una pequeña disgresión:
 
-- En econometría y estadística tradicional, estos supuestos son esenciales porque afectan a la validez de la inferencia: si se incumplen, los intervalos de confianza, los contrastes de hipótesis y las conclusiones pueden ser erróneas.
+- En **econometría y estadística tradicional**, estos supuestos son esenciales porque afectan a la validez de la *inferencia*: si se incumplen, los intervalos de confianza, los contrastes de hipótesis y las conclusiones pueden ser erróneas.
 
-- En machine learning y big data, el objetivo suele ser la predicción más que la inferencia. La mayoría de algoritmos no requieren normalidad ni homocedasticidad para funcionar. Sin embargo, fenómenos como la autocorrelación (en datos temporales o espaciales) o la heterocedasticidad (cuando la variabilidad de los errores cambia según la zona del espacio de datos) pueden deteriorar el rendimiento predictivo si no se consideran.
+- En **machine learning y big data**, el objetivo suele ser la *predicción* más que la inferencia. La mayoría de algoritmos no requieren normalidad ni homocedasticidad para funcionar. Sin embargo, fenómenos como la autocorrelación (en datos temporales o espaciales) o la heterocedasticidad (cuando la variabilidad de los errores cambia según la zona del espacio de datos) pueden deteriorar el rendimiento predictivo si no se consideran.
 
 Es decir, los supuestos estadísticos son condiciones necesarias en inferencia y buenas prácticas diagnósticas en machine learning. No invalidan los modelos predictivos, pero ayudan a detectar problemas de calidad de los datos y a mejorar la robustez de los resultados.
 
