@@ -116,7 +116,7 @@ Soy una persona asertiva, creativa y con alta capacidad de trabajo. Mi formació
 <!-- Inicio del CV en Inglés -->
 <h2 id="cv-en">Curriculum Vitae (English)</h2>
 
->  Click <a href="/assets/pdf/NRR_2025_M.pdf" download> here </a> to download it in PDF.
+>  Click <a href="/assets/pdf/NRR_2025_english.pdf" download> here </a> to download it in PDF.
 {: .prompt-tip }
 >
 > 
